@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#0F1115">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="RootDroid 12 - Android 12 Rooted + Binder Hook" android:textColor="#00FF88" android:textSize="20sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:text="جاهز" android:textColor="#FFFFFF"/>
+    <Button android:id="@+id/startBtn" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="تشغيل Android 12 Rooted"/>
+    <TextView android:id="@+id/logView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:layout_marginTop="16dp" android:background="#000000" android:textColor="#00FF88"
+        android:fontFamily="monospace" android:padding="12dp" android:text="log..."/>
+</LinearLayout>
